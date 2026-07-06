@@ -193,13 +193,13 @@ export const botConfig = {
     },
 
     // Default priority for new tickets.
-    defaultPriority: "none",
+    defaultPriority: "full",
 
     // Category ID where closed tickets are archived.
     archiveCategory: null,
 
     // Channel ID where ticket logs are sent.
-    logChannel: null,
+    logChannel: 1523712334541881514,
   },
 
   // =========================
@@ -229,7 +229,7 @@ export const botConfig = {
 
       // Allowed safety limits for account-age requirements.
       // 1 = minimum day, 365 = maximum days.
-      minAccountAge: 1,
+      minAccountAge: 10,
       maxAccountAge: 365,
 
       // If true, user receives a DM after verification.
@@ -237,15 +237,15 @@ export const botConfig = {
 
       // Human-readable descriptions for each criteria mode.
       criteria: {
-        account_age: "Account must be older than specified days",
+        account_age: "Account must be older than 10 days",
         server_size: "All users if server has less than 1000 members",
         none: "All users immediately"
       }
     },
 
     // Minimum time between verification attempts (milliseconds).
-    // 5000 = 5 seconds.
-    verificationCooldown: 5000,
+    // 60000 = 60 seconds.
+    verificationCooldown: 60000,
 
     // Maximum failed attempts allowed inside the time window below.
     maxVerificationAttempts: 3,
@@ -281,11 +281,11 @@ export const botConfig = {
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
-      "{user} has left the server. We now have {memberCount} members.",
+      "{user} has left the server. How sad is that.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1393984967247396883,
     // Channel ID for goodbye messages.
-    defaultGoodbyeChannel: null,
+    defaultGoodbyeChannel: 1523713104058257438,
   },
 
   // =========================
