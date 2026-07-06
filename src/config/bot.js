@@ -24,9 +24,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Dum spiro spero",
         // Activity type number (0 = Playing).
-        type: 0,
+        type: 2,
       },
     ],
   },
@@ -91,8 +91,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#DC143C",
+      secondary: "##36454F",
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287",
@@ -119,14 +119,14 @@ export const botConfig = {
         ended: "#ED4245",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        open: "#FFA500",
+        claimed: "#FF8C00",
+        closed: "#FF8C00",
+        pending: "#FEE8D6",
       },
       economy: "#F1C40F",
       birthday: "#E91E63",
-      moderation: "#9B59B6",
+      moderation: "#DC143C",
 
       // Ticket priority color mapping.
       priority: {
